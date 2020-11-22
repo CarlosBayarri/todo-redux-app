@@ -9,7 +9,8 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "install_ngrx": "npm i @ngrx/store --save",
-    "install_devtools_redux": "npm i @ngrx/store-devtools --save"
+    "install_devtools_redux": "npm i @ngrx/store-devtools --save",
+    "build_github": "ng build --prod --output-path docs --base-href /todo-app/"
   },
   "private": true,
   "dependencies": {
